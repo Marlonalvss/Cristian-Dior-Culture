@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Dior Culture</title>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-black text-white py-4 px-8">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="font-serif text-3xl">Christian Dior</div>
+            <nav>
+                <ul class="d-flex gap-4 list-unstyled m-0">
+                    <li><a href="#sobre" class="text-white text-decoration-none hover:text-gray-400">Sobre</a></li>
+                    <li><a href="#colecoes" class="text-white text-decoration-none hover:text-gray-400">Coleções</a></li>
+                    <li><a href="#produtos" class="text-white text-decoration-none hover:text-gray-400">Produtos</a></li>
+                    <li><a href="#contato" class="text-white text-decoration-none hover:text-gray-400">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="text-center py-5 bg-white">
+        <div class="container">
+            <h1 class="text-5xl font-serif text-gray-800">Sobre a Christian Dior</h1>
+            <p class="mt-3 text-xl text-gray-600 mx-auto" style="max-width: 600px;">
+                A Christian Dior é sinônimo de alta costura, elegância e inovação. Fundada em 1946, a marca revolucionou o
+                mundo da moda com sua visão única de luxo e sofisticação.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Coleções (Carrossel) -->
+    <section id="colecoes" class="py-5 bg-gray-200">
+        <div class="container text-center">
+            <h2 class="text-4xl font-serif text-gray-800">Coleções Recentes</h2>
+
+            <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100 h-96 object-cover  [object-position:50%_80%]"
+                            src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_052_E10?$lookDefault_GH-GHC$&crop=568,0,1863,2000&wid=1536&hei=1661&scale=0.8303&bfc=on&qlt=85"
+                            alt="Coleção 2025">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100 h-96 object-cover  [object-position:50%_20%]"
+                            src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_006_E07-1?$lookDefault_GH-GHC$&crop=568,0,1864,2000&wid=1536&hei=1661&scale=0.8303&bfc=on&qlt=85"
+                            alt="Coleção Primavera/Verão 2025">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100 h-96 object-cover object-center"
+                            src="https://assets.christiandior.com/is/image/diorprod/1ESPO349KESH511_E03?$default_GHC$&crop=587,921,826,933&wid=1536&hei=1661&scale=0.7265&bfc=on&qlt=85"
+                            alt="Coleção Outono/Inverno 2025">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section id="produtos" class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="text-4xl font-serif text-gray-800">Produtos Destaque</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-lg" data-bs-toggle="modal" data-bs-target="#produtoModal1">
+                        <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_044_E04-1?$lookDefault_GH-GHC$&crop=568,0,1864,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85"
+                            alt="Produto 1" class="w-100 h-100 object-cover rounded-lg mb-3">
+                        <p class="text-xl font-semibold">Jaqueta Christian Dior Couture</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-lg" data-bs-toggle="modal" data-bs-target="#produtoModal2">
+                        <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_052_E10?$lookDefault_GH-GHC$&crop=568,0,1863,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85"
+                            alt="Produto 2" class="w-100 h-100 object-cover rounded-lg mb-3">
+                        <p class="text-xl font-semibold">Camiseta DIOR AND HYLTON NEL</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-gray-100 p-4 rounded-lg shadow-lg" data-bs-toggle="modal" data-bs-target="#produtoModal3">
+                        <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_049_E04-1?$lookDefault_GH-GHC$&crop=568,0,1864,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85"
+                            alt="Produto 3" class="w-100 h-100 object-cover rounded-lg mb-3">
+                        <p class="text-xl font-semibold">Jaqueta Christian Dior Couture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Produto 1 -->
+    <div class="modal fade" id="produtoModal1" tabindex="-1" aria-labelledby="produtoModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="produtoModalLabel1">Jaqueta Christian Dior Couture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_044_E04-1?$lookDefault_GH-GHC$&crop=568,0,1864,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85" alt="Produto 1" class="w-100 mb-3">
+                    <p class="text-lg">Esta é uma jaqueta exclusiva da coleção Dior Couture, feita com materiais de alta qualidade, perfeita para quem busca sofisticação e estilo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produto 2 -->
+    <div class="modal fade" id="produtoModal2" tabindex="-1" aria-labelledby="produtoModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="produtoModalLabel2">Camiseta DIOR AND HYLTON NEL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_052_E10?$lookDefault_GH-GHC$&crop=568,0,1863,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85" alt="Produto 2" class="w-100 mb-3">
+                    <p class="text-lg">A camiseta Dior And Hylton Nel traz um design contemporâneo e elegante, ideal para o uso diário, mas com um toque de exclusividade.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produto 3 -->
+    <div class="modal fade" id="produtoModal3" tabindex="-1" aria-labelledby="produtoModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="produtoModalLabel3">Jaqueta Christian Dior Couture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://assets.christiandior.com/is/image/diorprod/LOOK_H_25_2_LOOK_049_E04-1?$lookDefault_GH-GHC$&crop=568,0,1864,2000&wid=1024&hei=1107&scale=0.5535&bfc=on&qlt=85" alt="Produto 3" class="w-100 mb-3">
+                    <p class="text-lg">Esta jaqueta Dior Couture é um símbolo de luxo e elegância, ideal para ocasiões formais e eventos de alta classe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contato" class="bg-black text-white py-3 text-center">
+        <p>&copy; 2025 Christian Dior | Marlon Alves estudos.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
