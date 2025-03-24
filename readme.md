@@ -4,7 +4,7 @@
 
 Este é um website simples criado para apresentar a marca **Christian Dior**, suas coleções e produtos em destaque. A estrutura do site é responsiva, utilizando **Bootstrap** e **Tailwind CSS** para garantir um layout moderno e funcional. O projeto inclui um carrossel de imagens para exibir as coleções e modais para destacar os produtos.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 - **HTML5** - Estrutura e conteúdo do site.
 - **CSS (Tailwind e Bootstrap)** - Estilo e layout do site.
@@ -13,7 +13,7 @@ Este é um website simples criado para apresentar a marca **Christian Dior**, su
 - **Bootstrap** - Framework para componentes responsivos, como o carrossel e modais.
 - **Tailwind CSS** - Utilizado para estilizar o site de maneira eficiente e customizável.
 
-## Funcionalidades
+## Funcionalidades 🎯
 
 - **Menu de navegação:** Links para as seções "Sobre", "Coleções", "Produtos" e "Contato".
 - **Seção Sobre:** Apresenta informações sobre a história da marca Christian Dior.
@@ -21,7 +21,7 @@ Este é um website simples criado para apresentar a marca **Christian Dior**, su
 - **Produtos em Destaque:** Apresenta três produtos com imagens e descrições. Ao clicar nas imagens, são exibidos modais com mais detalhes sobre cada produto.
 - **Rodapé:** Contém informações de copyright e um link de contato por e-mail.
 
-## Como Rodar o Projeto
+## Como Rodar o Projeto 🚀
 
 1. Clone o repositório:
     ```bash
@@ -33,15 +33,15 @@ Este é um website simples criado para apresentar a marca **Christian Dior**, su
     ```
 3. Abra o arquivo `index.html` em seu navegador para visualizar o site.
 
-## Estrutura de Arquivos
+## Estrutura de Arquivos 📂
 
 - `index.html`: Página principal do site.
 - `README.md`: Este arquivo, que fornece informações sobre o projeto.
 
-## Contribuições
+## Contribuições 🤝
 
 Sinta-se à vontade para contribuir com melhorias e correções. Para isso, crie um *pull request* explicando a mudança.
 
-## Licença
+## Licença 📝
 
 Este projeto foi criado para estudos de HTML, TailwindCSS, Bootstrap.
